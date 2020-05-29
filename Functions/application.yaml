@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  DoWork:
+    Type: AWS::Serverless::Function
+    Properties:
+      MemorySize: 128
+      Runtime: dotnetcore3.1
+      Handler: Functions::Functions.Lambda::InvokeAsync
+      Timeout: 60
+      CodeUri:
+      Policies:
+        - AWSLambdaBasicExecutionRole 
