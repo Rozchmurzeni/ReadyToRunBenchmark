@@ -9,8 +9,6 @@ EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependencies", "Dependencies\Dependencies.csproj", "{9F101A17-59BE-4BE4-B756-91A790A231F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkApp", "BenchmarkApp\BenchmarkApp.csproj", "{9145E211-33D0-4331-A4FA-DF8B6173E032}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,9 +23,5 @@ Global
 		{9F101A17-59BE-4BE4-B756-91A790A231F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F101A17-59BE-4BE4-B756-91A790A231F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F101A17-59BE-4BE4-B756-91A790A231F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9145E211-33D0-4331-A4FA-DF8B6173E032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9145E211-33D0-4331-A4FA-DF8B6173E032}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9145E211-33D0-4331-A4FA-DF8B6173E032}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9145E211-33D0-4331-A4FA-DF8B6173E032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
